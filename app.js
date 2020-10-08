@@ -18,7 +18,7 @@ const commentRoutes     = require('./routes/comments'),
       indexRoutes       = require('./routes/index');
 
 
-mongoose.connect('mongodb+srv://webdevcamp:WTFapple138!@cluster0.agdoz.mongodb.net/test_db?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://webdevcamp:WTFapple138!@cluster0.agdoz.mongodb.net/yelpcamp?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useCreateIndex: true
 }).then(() => console.log('Connected to DB!'))
