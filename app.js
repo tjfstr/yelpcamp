@@ -18,11 +18,10 @@ const commentRoutes     = require('./routes/comments'),
       indexRoutes       = require('./routes/index');
 
 
-mongoose.connect('mongodb://localhost:27017/yelp_camp_final', {
+mongoose.connect('mongodb+srv://webdevcamp:WTFapple138!@cluster0.agdoz.mongodb.net/test_db?retryWrites=true&w=majority', {
   useNewUrlParser: true,
-  useUnifiedTopology: true
-})
-.then(() => console.log('Connected to DB!'))
+  useCreateIndex: true
+}).then(() => console.log('Connected to DB!'))
 .catch(error => console.log(error.message));
 
 
