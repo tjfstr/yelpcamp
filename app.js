@@ -60,6 +60,6 @@ app.use('/campgrounds/:id/comments', commentRoutes);
 
 
 // start server
-app.listen(5000, () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log('Yelpcamp Sever has Started');
 });
