@@ -24,7 +24,7 @@ const commentRoutes     = require('./routes/comments'),
 // })
 // .then(() => console.log('Connected to DB!'))
 // .catch(error => console.log(error.message));
-mongoose.connect('mongodb+srv://webdevcamp:lupin@cluster0.agdoz.mongodb.net/yelpcamp?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://webdevcamp:lupin@cluster0.agdoz.mongodb.net/yelpcamp666?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
