@@ -62,6 +62,7 @@ app.use(function(req, res, next){
     next();
 });
 
+//All of the routes
 app.use('/',indexRoutes);
 app.use('/campgrounds', campgroundRoutes);
 app.use('/campgrounds/:id/comments', commentRoutes);
